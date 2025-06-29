@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a18cd1);
+  text-align: center;
+  padding: 30px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+.dance-box {
+  margin: 20px 0;
+}
+
+.dance-gif {
+  width: 180px;
+  border-radius: 15px;
+  animation: bounce 2s infinite;
+}
+
+.spotify {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b61e6a;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}

@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  color: #333;
+}
+
+.animated-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #ffdee9, #b5fffc);
+  z-index: -2;
+  overflow: hidden;
+  animation: gradientShift 15s infinite alternate ease-in-out;
+}
+
+.container {
+  text-align: center;
+  padding: 60px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  color: #b2185b;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+  animation: fadeIn 2s ease;
+}
+
+.tip-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px #c7e9f0;
+  max-width: 600px;
+  margin: auto;
+  animation: fadeIn 2s ease;
+}
+
+#selfCareTip {
+  font-size: 1.3rem;
+  color: #1d3557;
+  margin-bottom: 20px;
+  min-height: 60px;
+  transition: all 0.3s ease;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b61e6a;
+}
+
+.next-button {
+  margin-top: 40px;
+  background-color: #0096c7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientShift {
+  0% { background: linear-gradient(120deg, #ffdee9, #b5fffc); }
+  50% { background: linear-gradient(120deg, #d0c1f7, #fbd4ff); }
+  100% { background: linear-gradient(120deg, #ffdee9, #b5fffc); }
+}

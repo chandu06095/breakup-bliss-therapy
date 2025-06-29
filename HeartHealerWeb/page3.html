@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healing Journal</title>
+  <link rel="stylesheet" href="page3.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Healing Journal</h2>
+    <p class="sub">Write what you wish you had said...</p>
+    <textarea id="journalInput" placeholder="Dear me..."></textarea>
+    <button onclick="saveJournal()">Save Journal</button>
+
+    <h2>🙏 Gratitude Notes</h2>
+    <p class="sub">Things I’m thankful for today…</p>
+    <textarea id="gratitudeInput" placeholder="I’m grateful for..."></textarea>
+    <button onclick="saveGratitude()">Save Gratitude</button>
+
+    <p class="saved">💾 Saved Thoughts:</p>
+    <div id="savedNotes">
+      <p><strong>Journal:</strong> <span id="savedJournal">None</span></p>
+      <p><strong>Gratitude:</strong> <span id="savedGratitude">None</span></p>
+    </div>
+
+    <button class="next-button" onclick="goToNextPage('page4.html')">Next ➡️</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe0e0, #f3e5f5);
+  padding: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #ba125a;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.journal-box, .gratitude-box {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #eecaf4;
+  margin: 20px auto;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  resize: vertical;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b61e6a;
+}
+
+.prompt {
+  font-style: italic;
+  color: #555;
+}
+
+.quote-box {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #6a0572;
+  animation: fadeIn 2s ease;
+}
+
+.next-button {
+  margin-top: 40px;
+  font-size: 1rem;
+  background-color: #8e24aa;
+}

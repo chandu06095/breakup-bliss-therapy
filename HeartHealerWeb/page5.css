@@ -1,0 +1,76 @@
+body {
+  background: radial-gradient(circle, #ffd6e0, #ffe3f2);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.heart-area {
+  margin: 40px 0;
+}
+
+#heart {
+  font-size: 120px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+  transition: transform 0.3s ease;
+}
+
+#heart:active {
+  transform: scale(0.9);
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #c2185b;
+  min-height: 40px;
+}
+
+button {
+  background: #d63384;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b61e6a;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

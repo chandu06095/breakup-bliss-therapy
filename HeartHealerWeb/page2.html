@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healing Activities ✍️</title>
+  <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🌿 Healing Activities 🌈</h2>
+    <p class="subtext">Let it out. Write it down. Heal it slowly 💌</p>
+
+    <div class="journal-box">
+      <h3>📖 Journal Prompt</h3>
+      <p class="prompt">“Write what you wish you had said...”</p>
+      <textarea id="journalInput" placeholder="Start writing your feelings..."></textarea>
+      <button onclick="saveJournal()">Save Journal</button>
+    </div>
+
+    <div class="gratitude-box">
+      <h3>🙏 Gratitude Note</h3>
+      <p class="prompt">“Things I’m thankful for today…”</p>
+      <textarea id="gratitudeInput" placeholder="Write 1 or 2 good things..."></textarea>
+      <button onclick="saveGratitude()">Save Gratitude</button>
+    </div>
+
+    <div class="quote-box">
+      <h4 id="healingQuote">💬 “Every wound is a place where light enters.”</h4>
+    </div>
+
+    <button class="next-button" onclick="goToNextPage('page3.html')">Next ➡️</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

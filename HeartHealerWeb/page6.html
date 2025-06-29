@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glow-Up Time 💅</title>
+  <link rel="stylesheet" href="page6.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="fade-in">💄 Glow-Up Time 💃</h2>
+    <p class="fade-in">Tap to switch your look — dress, makeup & hair!</p>
+
+    <div class="avatar fade-in">
+      <div id="hair">💇‍♀️</div>
+      <div id="face">😊</div>
+      <div id="outfit">👗</div>
+    </div>
+
+    <div class="controls fade-in">
+      <button onclick="nextHair()">Hair</button>
+      <button onclick="nextMakeup()">Makeup</button>
+      <button onclick="nextOutfit()">Outfit</button>
+    </div>
+
+    <p class="glow-message" id="glowMessage"></p>
+
+    <button class="next-button" onclick="goToNextPage('page7.html')">Next ➡️</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

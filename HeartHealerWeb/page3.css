@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #333;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #c2185b;
+  margin-top: 30px;
+}
+
+.sub {
+  margin-top: -10px;
+  font-style: italic;
+  color: #666;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  display: block;
+  resize: none;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b61e6a;
+}
+
+.saved {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#savedNotes {
+  background: #fff6fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
